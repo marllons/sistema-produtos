@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<!-- Base application theme. -->
+	<style name="Theme.CrudProdutos" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+		<item name="colorPrimary">@color/white</item>
+		<item name="colorPrimaryVariant">@color/black</item>
+		<item name="colorOnPrimary">@color/black</item>
+		<item name="colorSecondary">#BABA</item>
+		<item name="colorSecondaryVariant">#BBBB</item>
+		<item name="colorOnSecondary">@color/white</item>
+		<item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+	</style>
+
+
+	<style name="Theme.ToolbarTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+		<!-- android:textColorPrimary is the color of the title text in the Toolbar  -->
+		<item name="android:textColorPrimary">@color/black</item>
+		<item name="colorPrimaryVariant">@color/white</item>
+		<!-- actionMenuTextColor is the color of the text of action (menu) items  -->
+		<item name="actionMenuTextColor">@color/black</item>
+		<!-- Applies to views in their activated state (i.e checked or switches) -->
+		<item name="colorControlActivated">@color/gray</item>
+		<!-- Applied to framework control highlights (i.e ripples or list selectors) -->
+		<item name="colorControlHighlight">@color/gray</item>
+	</style>
+
+
+	<style name="Theme.ToolbarTheme.Title" parent="Widget.AppCompat.TextView">
+		<item name="android:textColorPrimary">@color/black</item>
+		<item name="android:textSize">19.9sp</item>
+		<item name="android:visibility">visible</item>
+	</style>
+</resources>
